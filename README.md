@@ -49,6 +49,20 @@
 
 ## Why do I have to `.listen()`?
 
+- So that your node program is reachable at a port
+
 ## What is `nodemon`?
 
+- It automatically reloads your node code so you don't need to stop and restart every time you save
+
 ## How do I write an `npm` script?
+
+- You add to the `"scripts"` section of the `package.json`
+
+## How do I send a file back in a Response?
+
+## How do I set the status code?
+
+## What are some common status codes?
+
+## What do I use for the headers?
