@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
+    "dev": "nodemon index.js",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/radishmouse/hello-http/issues"
   },
-  "homepage": "https://github.com/radishmouse/hello-http#readme"
+  "homepage": "https://github.com/radishmouse/hello-http#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
