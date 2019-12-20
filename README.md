@@ -61,8 +61,26 @@
 
 ## How do I send a file back in a Response?
 
+- Use `fs.readFile()`
+- Inside your callback to `fs.readFile()`, pass the contents of the file to `res.end()`
+
 ## How do I set the status code?
+
+- Use `res.writeHead()` and pass it two arguments:
+- 1. A status code number
+- 2. An object with key/value pairs that specify HTTP headers
+    - e.g., `{ "Content-Type": "text/html" }`
 
 ## What are some common status codes?
 
+- https://http.cat/
+- 200 means OK
+- 404 means file not found
+- 500 means server code error
+
 ## What do I use for the headers?
+
+- Primarily so that the client knows what kind of data you're sending:
+    - 'text/html'
+    - 'text/css'
+    - 'application/json'
